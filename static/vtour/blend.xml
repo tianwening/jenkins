@@ -1,0 +1,14 @@
+<krpano>
+  <blendmodes name="no blending"       description="无过渡效果"  blend="NOBLEND" />
+  <blendmodes name="simple crossblending" description="简单淡入淡出" blend="BLEND(1.0, easeInCubic)" />
+  <blendmodes name="zoom blend"        description="缩放过渡"  blend="ZOOMBLEND(2.0, 2.0, easeInOutSine)" />
+  <blendmodes name="black-out"         description="黑场过渡"  blend="COLORBLEND(2.0, 0x000000, easeOutSine)" />
+  <blendmodes name="white-flash"       description="白场过渡"  blend="LIGHTBLEND(1.0, 0xFFFFFF, 2.0, linear)" />
+  <blendmodes name="right-to-left"     description="从右至左"  blend="SLIDEBLEND(1.0, 0.0, 0.2, linear)" />
+  <blendmodes name="top-to-bottom"     description="从上至下"   blend="SLIDEBLEND(1.0, 90.0, 0.01, linear)" />
+  <blendmodes name="diagonal"          description="对角线"     blend="SLIDEBLEND(1.0, 135.0, 0.4, linear)" />
+  <blendmodes name="circle open"       description="圆形展开"      blend="OPENBLEND(1.0, 0.0, 0.2, 0.0, linear)" />
+  <blendmodes name="vertical open"     description="垂直展开"     blend="OPENBLEND(0.7, 1.0, 0.1, 0.0, linear)" />
+  <blendmodes name="horizontal open"   description="水平展开"    blend="OPENBLEND(1.0, -1.0, 0.3, 0.0, linear)" />
+  <blendmodes name="elliptic + zoom"   description="椭圆缩放"      blend="OPENBLEND(1.0, -0.5, 0.3, 0.8, linear)" />
+</krpano>
